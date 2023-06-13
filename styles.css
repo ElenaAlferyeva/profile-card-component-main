@@ -1,0 +1,86 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+    color: grey;
+    font-weight: 400;
+    background: url('data:image/svg+xml,<svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(%23a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5"/></svg>') -300px -500px no-repeat, url('data:image/svg+xml,<svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="%230989B4" stop-opacity="0" offset="0%"/><stop stop-color="%2353FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(%23a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/></svg>') 500px 500px no-repeat, hsl(185, 75%, 39%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:auto;
+}
+
+.component {
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center
+}
+
+.component svg {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+    top: -75px;
+    width: 125px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.image {
+    height: 5rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    border-top: solid lightgray ;
+    border-width: thin;
+    width: 21.9rem;
+    justify-content: space-around;
+}
+
+.stats div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+em {
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.location {
+    padding: 1rem;
+}
+
+p {
+    padding:5px;
+    margin: 0;
+}
+
